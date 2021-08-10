@@ -1,0 +1,35 @@
+body{
+    font-family:'Pirata One', cursive;
+    font-size: 30px !important;
+}
+
+.buton{
+    width: 150px;
+    height: 70px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+h3{
+    margin: 0px;
+    color: black !important ;
+    width: 100%;
+    border-radius: 25px;
+    height: 250px;
+}
+
+.btn-success:hover{
+    background-color:red;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+
+canvas{
+    animation-name : example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: auto;
+}
